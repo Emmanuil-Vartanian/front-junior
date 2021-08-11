@@ -1,0 +1,57 @@
+.container {
+  height: 97vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerBlock {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  margin: 0 auto;
+  font-size: 17px;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.titleGeneration {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.lengthPasswordBlock,
+.checkboxBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.select {
+  cursor: pointer;
+}
+
+.checkboxFiled {
+  width: 15px;
+  height: 15px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.button {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.inputGeneratedPassword {
+  font-size: 16px;
+  margin: 15px 0 5px;
+  padding: 1px 5px;
+}
+
+.inputGeneratedPassword:disabled {
+  cursor: not-allowed;
+}
